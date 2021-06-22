@@ -11,16 +11,6 @@ public class KaryawanTidakTetap extends KaryawanTetap {
         System.out.println("Menampilkan Data Posisi Jabatan PegawaiTidakTetap");
     }
 
-    @Override
-    public String getNoKk() {
-        return noKk;
-    }
-
-    @Override
-    public void setNoKk(String noKk) {
-        this.noKk = noKk;
-    }
-
     public String getPosisiJabatan() {
         return posisiJabatan;
     }
@@ -36,4 +26,5 @@ public class KaryawanTidakTetap extends KaryawanTetap {
     public void setLamaBekerja(String lamaBekerja) {
         this.lamaBekerja = lamaBekerja;
     }
+
 }
