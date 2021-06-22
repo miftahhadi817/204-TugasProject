@@ -11,4 +11,6 @@ public class KaryawanTidakTetap extends KaryawanTetap {
         System.out.println("Menampilkan Data Posisi Jabatan PegawaiTidakTetap");
     }
 
+
+
 }
