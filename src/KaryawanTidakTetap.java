@@ -1,3 +1,5 @@
+import java.sql.Date;
+
 public class KaryawanTidakTetap extends KaryawanTetap {
     private String noKk;
     private String posisiJabatan;
@@ -27,4 +29,13 @@ public class KaryawanTidakTetap extends KaryawanTetap {
         this.lamaBekerja = lamaBekerja;
     }
 
+    @Override
+    public void bekerja() {
+        System.out.println("Melakukan Peninjauan");
+    }
+
+    @Override
+    public void menampilkanData() {
+        System.out.println("Menampilkan Seluruh Data Karyawan");
+    }
 }
