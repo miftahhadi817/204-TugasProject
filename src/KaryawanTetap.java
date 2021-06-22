@@ -11,6 +11,26 @@ public class KaryawanTetap {
     private Date tanggalKontrak;
 
 
+    public KaryawanTetap() {
+    }
+
+    public KaryawanTetap(int id, String noKk, String namaLengkap, String jenisKelamin, Date tanggalLahir, String riwayatPendidikan, String jabatanSekarang, Date tanggalKontrak) {
+        this.id = id;
+        this.noKk = noKk;
+        this.namaLengkap = namaLengkap;
+        this.jenisKelamin = jenisKelamin;
+        this.tanggalLahir = tanggalLahir;
+        this.riwayatPendidikan = riwayatPendidikan;
+        this.jabatanSekarang = jabatanSekarang;
+        this.tanggalKontrak = tanggalKontrak;
+    }
+
+    public KaryawanTetap(String noKk, String namaLengkap, String jenisKelamin) {
+        this.noKk = noKk;
+        this.namaLengkap = namaLengkap;
+        this.jenisKelamin = jenisKelamin;
+    }
+
 
 
     public void bekerja(){
