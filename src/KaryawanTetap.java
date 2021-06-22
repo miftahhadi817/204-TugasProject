@@ -2,7 +2,7 @@ import java.sql.Date;
 
 public class KaryawanTetap {
     private int id;
-    private int noKk;
+    private String noKk;
     private String namaLengkap;
     private String jenisKelamin;
     private Date tanggalLahir;
